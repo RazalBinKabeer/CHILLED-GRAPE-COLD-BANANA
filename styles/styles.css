@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #e5e5e5;
+}
+
+.flex {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 60px;
+    padding: 40px;
+}
+
+header h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #ffffff;
+}
+
+.login-btn a {
+    background: linear-gradient(90deg, #73e0a9 0%, #5b68df 100%);
+    border-radius: 100px;
+    padding: 5px 60px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Main */
+/* Section 1 */
+main .section-1 {
+    height: 75vh;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 160px;
+}
+
+.section-1 h2 {
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-left: 390px;
+}
+
+.vector-1 {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.vector-2 {
+    position: absolute;
+    top: 150px;
+    right: 0;
+    z-index: 999;
+}
+
+.vector-2 img {
+    height: 505px;
+}
+
+.vector-5 {
+    position: absolute;
+    left: 40%;
+    top: 14%;
+}
+
+.vector-6 {
+    position: absolute;
+    left: 0;
+    top: 340px;
+}
+
+.vector-7 {
+    position: absolute;
+    top: 62%;
+    right: 12%;
+    overflow: hidden;
+}
+
+.section-1 a {
+    background: linear-gradient(90deg, #73e0a9 0%, #5b68df 100%);
+    border-radius: 100px;
+    padding: 10px 50px;
+    align-self: flex-start;
+    margin-left: 390px;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul {
+    margin: 0 40px;
+}
+
+nav ul li {
+    margin: 0 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+nav ul li a {
+    color: #212121;
+}
+
+/* Section 2 */
+.section-2 {
+    margin: 50px 40px;
+    height: 100vh;
+    margin-bottom: 160px;
+}
+.section-2-content {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 0;
+    width: 60vw;
+    justify-content: center;
+}
+
+.section-2-content a {
+    background: linear-gradient(90deg, #73e0a9 0%, #5b68df 100%);
+    border-radius: 100px;
+    padding: 5px 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.pot-img-container {
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.pot-img-container img {
+    height: 700px;
+}
+
+.section-2-content h3 {
+    font-size: 36px;
+    width: 75%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.section-2-content p {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.vector-3 {
+    position: absolute;
+    top: 1050px;
+    right: 100px;
+    z-index: -2;
+}
+
+.vector-3 img {
+    height: 400px;
+}
+
+/* Products Container */
+.products-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 260px;
+}
+
+.product-container {
+    margin: 30px 20px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.15);
+}
+
+.product-container img {
+    border-radius: 30px;
+    height: 314px;
+    width: 369px;
+    object-fit: cover;
+}
+
+.product-container h3,
+.product-container p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #212121;
+    padding: 5px 12px;
+}
+
+.product-container p {
+    color: #747474;
+}
+
+/* Footer */
+
+footer {
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+footer .caption {
+    width: 30vw;
+}
+
+.caption h3 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 54px;
+    color: #fff;
+}
+
+.caption p {
+    color: #fff;
+}
+
+.company p,
+.products p,
+.socials h3 {
+    color: #73e0a9;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.company ul,
+.products ul {
+    flex-direction: column;
+}
+
+.company ul a,
+.products ul a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 27px;
+    text-align: justify;
+    color: #212121;
+}
+
+.company ul li,
+.products ul li {
+    margin: 7px 0;
+}
+
+.vector-4 {
+    position: absolute;
+    bottom: -2900px;
+    z-index: -3;
+}
+
+.socials {
+    flex-direction: column;
+}
+
+.socials i {
+    background: linear-gradient(90deg, #73e0a9 0%, #5b68df 100%);
+    border-radius: 8px;
+    padding: 15px 18px;
+    margin: 5px;
+}
